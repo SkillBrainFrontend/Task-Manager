@@ -15,12 +15,6 @@ function App() {
       status: "In Progress",
       dueDate: new Date(2022, 7, 24),
     },
-    {
-      id: "T-3",
-      name: "13 Create a Design System for Enum Workspace.",
-      status: "Complete",
-      dueDate: new Date(2022, 6, 13),
-    },
   ];
 
   return (
@@ -36,12 +30,6 @@ function App() {
         status={data[1].status}
         name={data[1].name}
         dueDate={data[1].dueDate}
-      />
-      <TaskCard
-        id={data[2].id}
-        status={data[2].status}
-        name={data[2].name}
-        dueDate={data[2].dueDate}
       />
     </div>
   );
